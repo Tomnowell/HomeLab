@@ -1,0 +1,63 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: Update package cache
+      dnf: 
+        update_cache: true
+
+    - name: Install Java
+      dnf:
+        name: java-17-openjdk
+        state: present
+
+- hosts: elasticsearch, kibana
+  become: true
+
+  tasks:
+    - name: Import Elastic GPG Key
+      rpm_key:
+        key: http://artifacts.elastic.co/GPG-KEY-elasticsearch
+        state: present
+
+    - name: Add Elastic Repository
+      yum_repository:
+        name: elastic-9.x
+        description: Elasticsearch repository for 9.x packages
+        base_url: https://artifacts.elastic.co/packages/9.x/yum
+        gpgcheck: true
+        enabled: true
+        gpgkey: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+        type: rpm-md
+
+- hosts: elasticsearch
+  become: true
+
+  tasks:
+  - name: Install Elasticsearch
+    dnf:
+      name: elasticsearch
+      state: present
+
+  - name: Enable Elasticsearch Service
+    service: 
+      name: elasticsearch
+      enabled: true
+      state: started
+
+- hosts: kibana
+  become: true
+
+  tasks: 
+    - name: Install kibana
+      dnf: 
+        name: kibana
+        state: present
+
+    - name: Enable Kibana Service
+      service:
+        name: kibana
+        enabled: true
+        state: started
+
+
