@@ -23,46 +23,9 @@ provider "proxmox" {
 }
 
 
-###### ELASTICSEARCH VM ##############################################################
-resource "proxmox_virtual_environment_vm" "elasticsearch" {
-    name = "elasticsearch"
-    node_name= "pve"
-  clone {
-    vm_id = 9000
-  }
-  cpu {
-    cores = 2
-  }
-  memory {
-    dedicated = 4096
-  }
-  disk {
-    datastore_id = "local-lvm"
-    interface = "virtio0"
-    size = 96
-  }
-  network_device {
-    bridge = "vmbr2"
-  }
-  initialization {
-    ip_config {
-	    ipv4 {
-	      address="192.168.1.10"
-	    }
-    }
-    user_account {
-	    username= "tom"
-	    keys = [
-	      file("~/.ssh/proxmox.pub")
-	    ]
-
-	  }
-  }
-}
-
-###### KIBANA VM ##############################################################
-resource "proxmox_virtual_environment_vm" "kibana" {
-    name = "kibana"
+###### CONTROL PLANE ##############################################################
+resource "proxmox_virtual_environment_vm" "control-plane" {
+    name = "control"
     node_name= "pve"
   clone {
     vm_id = 9000
@@ -80,11 +43,101 @@ resource "proxmox_virtual_environment_vm" "kibana" {
   }
   network_device {
     bridge = "vmbr2"
+    mac_address = "02:00:00:00:10:01"
+  }
+  network_device {
+    bridge = "vmbr3"
+  }
+  initialization {
+    ip_config {
+	    ipv4 {
+	      address="192.168.1.10/24"
+        gateway="192.168.1.1"
+	    }
+    }
+    ip_config {
+        ipv4 {
+          address="192.168.100.10/24"
+        }
+    }
+    user_account {
+	    username= "tom"
+	    keys = [
+	      file("~/.ssh/proxmox.pub")
+	    ]
+
+	  }
+  }
+}
+
+###### Worker 1 ##############################################################
+resource "proxmox_virtual_environment_vm" "worker1" {
+    name = "worker1"
+    node_name= "pve"
+  clone {
+    vm_id = 9000
+  }
+  cpu {
+    cores = 2
+  }
+  memory {
+    dedicated = 4096
+  }
+  disk {
+    datastore_id = "local-lvm"
+    interface = "virtio0"
+    size = 40
+  }
+  network_device {
+    bridge = "vmbr3"
+  }
+  network_device {
+      bridge = "vmbr2"
   }
   initialization {
     ip_config {
   	  ipv4 {
-	      address="192.168.1.20"
+	      address="192.168.100.100"
+  	  }
+    } 
+    user_account {
+    	username= "tom"
+	    keys = [
+	      file("~/.ssh/proxmox.pub")
+	    ]
+	  }
+  }
+}
+
+###### Worker 2 ##############################################################
+resource "proxmox_virtual_environment_vm" "worker2" {
+    name = "worker2"
+    node_name= "pve"
+  clone {
+    vm_id = 9000
+  }
+  cpu {
+    cores = 2
+  }
+  memory {
+    dedicated = 4096
+  }
+  disk {
+    datastore_id = "local-lvm"
+    interface = "virtio0"
+    size = 40
+  }
+  network_device {
+    bridge = "vmbr3"
+  }
+  network_device {
+    bridge = "vmbr2"
+  }
+
+  initialization {
+    ip_config {
+  	  ipv4 {
+	      address="192.168.100.101"
   	  }
     } 
     user_account {
