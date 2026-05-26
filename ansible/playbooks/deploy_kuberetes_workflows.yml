@@ -1,0 +1,21 @@
+---
+- name: Deploy Kubernetes workloads
+  hosts: control_plane
+  become: false
+
+  tasks:
+
+    - name: Apply ECK operator
+      kubernetes.core.k8s:
+        state: present
+        src: ../../kubernetes/elastic/eck-operator.yml
+
+    - name: Apply Elasticsearch
+      kubernetes.core.k8s:
+        state: present
+        src: ../../kubernetes/elastic/elasticsearch.yml
+
+    - name: Apply Kibana
+      kubernetes.core.k8s:
+        state: present
+        src: ../../kubernetes/elastic/kibana.yml 

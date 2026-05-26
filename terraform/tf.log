@@ -1,0 +1,830 @@
+2026-05-22T16:12:27.110+0900 [INFO]  provider: configuring client automatic mTLS
+2026-05-22T16:12:27.114+0900 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 args=[".terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0"]
+2026-05-22T16:12:27.115+0900 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 pid=11946
+2026-05-22T16:12:27.115+0900 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0
+2026-05-22T16:12:27.122+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: configuring server automatic mTLS: timestamp="2026-05-22T16:12:27.122+0900"
+2026-05-22T16:12:27.127+0900 [DEBUG] provider: using plugin: version=6
+2026-05-22T16:12:27.127+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: plugin address: address=/var/folders/cg/y4__1d_j4bj_64qqv127ggnm0000gn/T/plugin2654072474 network=unix timestamp="2026-05-22T16:12:27.127+0900"
+2026-05-22T16:12:27.143+0900 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-05-22T16:12:27.144+0900 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 id=11946
+2026-05-22T16:12:27.144+0900 [DEBUG] provider: plugin exited
+2026-05-22T16:12:27.145+0900 [INFO]  provider: configuring client automatic mTLS
+2026-05-22T16:12:27.146+0900 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 args=[".terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0"]
+2026-05-22T16:12:27.147+0900 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 pid=11947
+2026-05-22T16:12:27.147+0900 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0
+2026-05-22T16:12:27.155+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: configuring server automatic mTLS: timestamp="2026-05-22T16:12:27.155+0900"
+2026-05-22T16:12:27.159+0900 [DEBUG] provider: using plugin: version=6
+2026-05-22T16:12:27.159+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: plugin address: address=/var/folders/cg/y4__1d_j4bj_64qqv127ggnm0000gn/T/plugin2363943533 network=unix timestamp="2026-05-22T16:12:27.159+0900"
+2026-05-22T16:12:27.167+0900 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-05-22T16:12:27.168+0900 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 id=11947
+2026-05-22T16:12:27.168+0900 [DEBUG] provider: plugin exited
+2026-05-22T16:12:27.169+0900 [INFO]  provider: configuring client automatic mTLS
+2026-05-22T16:12:27.170+0900 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 args=[".terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0"]
+2026-05-22T16:12:27.171+0900 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 pid=11948
+2026-05-22T16:12:27.171+0900 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0
+2026-05-22T16:12:27.179+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: configuring server automatic mTLS: timestamp="2026-05-22T16:12:27.178+0900"
+2026-05-22T16:12:27.182+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: plugin address: address=/var/folders/cg/y4__1d_j4bj_64qqv127ggnm0000gn/T/plugin2572553268 network=unix timestamp="2026-05-22T16:12:27.182+0900"
+2026-05-22T16:12:27.182+0900 [DEBUG] provider: using plugin: version=6
+2026-05-22T16:12:27.188+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Configuring the Framework Proxmox provider...: tf_mux_provider="*proto6server.Server" @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/fwprovider/provider.go:301 @module=proxmox tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=0cfac192-d628-1a3d-686c-7d84599b9ac6 tf_rpc=ConfigureProvider timestamp="2026-05-22T16:12:27.188+0900"
+2026-05-22T16:12:27.189+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Configuring the SDK Proxmox provider...: tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=0cfac192-d628-1a3d-686c-7d84599b9ac6 tf_mux_provider=tf5to6server.v5tov6Server tf_rpc=ConfigureProvider @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/provider/provider.go:50 @module=proxmox timestamp="2026-05-22T16:12:27.189+0900"
+2026-05-22T16:12:27.191+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Marking Computed attributes with null configuration values as unknown (known after apply) in the plan to prevent potential Terraform errors: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:250 @module=sdk.framework tf_req_id=4945efeb-ce5c-b59e-75ad-a8abd8c10145 tf_rpc=PlanResourceChange tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_download_file timestamp="2026-05-22T16:12:27.191+0900"
+2026-05-22T16:12:27.191+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: marking computed attribute that is null in the config as unknown: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:538 tf_attribute_path="AttributeName(\"size\")" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=4945efeb-ce5c-b59e-75ad-a8abd8c10145 tf_rpc=PlanResourceChange @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file timestamp="2026-05-22T16:12:27.191+0900"
+2026-05-22T16:12:27.191+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: marking computed attribute that is null in the config as unknown: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:538 tf_attribute_path="AttributeName(\"id\")" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=4945efeb-ce5c-b59e-75ad-a8abd8c10145 tf_resource_type=proxmox_download_file @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_rpc=PlanResourceChange timestamp="2026-05-22T16:12:27.191+0900"
+2026-05-22T16:12:27.213+0900 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-05-22T16:12:27.213+0900 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 id=11948
+2026-05-22T16:12:27.213+0900 [DEBUG] provider: plugin exited
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+
+Terraform will perform the following actions:
+
+[1m  # proxmox_download_file.ubuntu_cloud_image[0m will be created
+[0m  [32m+[0m[0m resource "proxmox_download_file" "ubuntu_cloud_image" {
+      [32m+[0m[0m content_type        = "import"
+      [32m+[0m[0m datastore_id        = "local"
+      [32m+[0m[0m file_name           = "noble-server-cloudimg-amd64.qcow2"
+      [32m+[0m[0m id                  = (known after apply)
+      [32m+[0m[0m node_name           = "proxmox"
+      [32m+[0m[0m overwrite           = true
+      [32m+[0m[0m overwrite_unmanaged = false
+      [32m+[0m[0m size                = (known after apply)
+      [32m+[0m[0m upload_timeout      = 600
+      [32m+[0m[0m url                 = "https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img"
+      [32m+[0m[0m verify              = true
+    }
+
+[1m  # proxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"][0m will be created
+[0m  [32m+[0m[0m resource "proxmox_virtual_environment_vm" "k8s_nodes" {
+      [32m+[0m[0m acpi                                 = true
+      [32m+[0m[0m bios                                 = "ovmf"
+      [32m+[0m[0m boot_order                           = (known after apply)
+      [32m+[0m[0m delete_unreferenced_disks_on_destroy = true
+      [32m+[0m[0m hotplug                              = (known after apply)
+      [32m+[0m[0m id                                   = (known after apply)
+      [32m+[0m[0m ipv4_addresses                       = (known after apply)
+      [32m+[0m[0m ipv6_addresses                       = (known after apply)
+      [32m+[0m[0m keyboard_layout                      = "en-us"
+      [32m+[0m[0m mac_addresses                        = (known after apply)
+      [32m+[0m[0m machine                              = "q35"
+      [32m+[0m[0m migrate                              = false
+      [32m+[0m[0m name                                 = "k8s-control-01"
+      [32m+[0m[0m network_device                       = [
+          [32m+[0m[0m {
+              [32m+[0m[0m bridge      = "vmbr2"
+              [32m+[0m[0m enabled     = true
+              [32m+[0m[0m firewall    = false
+              [32m+[0m[0m mac_address = (known after apply)
+              [32m+[0m[0m model       = "virtio"
+              [32m+[0m[0m mtu         = 0
+              [32m+[0m[0m queues      = 0
+              [32m+[0m[0m rate_limit  = 0
+              [32m+[0m[0m vlan_id     = 0
+            },
+        ]
+      [32m+[0m[0m network_interface_names              = (known after apply)
+      [32m+[0m[0m node_name                            = "proxmox"
+      [32m+[0m[0m on_boot                              = true
+      [32m+[0m[0m protection                           = false
+      [32m+[0m[0m purge_on_destroy                     = true
+      [32m+[0m[0m reboot                               = false
+      [32m+[0m[0m reboot_after_update                  = true
+      [32m+[0m[0m scsi_hardware                        = "virtio-scsi-pci"
+      [32m+[0m[0m started                              = true
+      [32m+[0m[0m stop_on_destroy                      = false
+      [32m+[0m[0m tablet_device                        = true
+      [32m+[0m[0m tags                                 = [
+          [32m+[0m[0m "terraform",
+          [32m+[0m[0m "kubernetes",
+          [32m+[0m[0m "elasticsearch",
+        ]
+      [32m+[0m[0m template                             = false
+      [32m+[0m[0m timeout_clone                        = 1800
+      [32m+[0m[0m timeout_create                       = 1800
+      [32m+[0m[0m timeout_migrate                      = 1800
+      [32m+[0m[0m timeout_move_disk                    = 1800
+      [32m+[0m[0m timeout_reboot                       = 1800
+      [32m+[0m[0m timeout_shutdown_vm                  = 1800
+      [32m+[0m[0m timeout_start_vm                     = 1800
+      [32m+[0m[0m timeout_stop_vm                      = 300
+      [32m+[0m[0m vm_id                                = 501
+
+      [32m+[0m[0m agent {
+          [32m+[0m[0m enabled = true
+          [32m+[0m[0m timeout = "15m"
+          [32m+[0m[0m trim    = false
+          [32m+[0m[0m type    = "virtio"
+        }
+
+      [32m+[0m[0m cpu {
+          [32m+[0m[0m cores      = 2
+          [32m+[0m[0m hotplugged = 0
+          [32m+[0m[0m limit      = 0
+          [32m+[0m[0m numa       = false
+          [32m+[0m[0m sockets    = 1
+          [32m+[0m[0m type       = "host"
+          [32m+[0m[0m units      = (known after apply)
+        }
+
+      [32m+[0m[0m disk {
+          [32m+[0m[0m aio               = "io_uring"
+          [32m+[0m[0m backup            = true
+          [32m+[0m[0m cache             = "none"
+          [32m+[0m[0m datastore_id      = "local-lvm"
+          [32m+[0m[0m discard           = "on"
+          [32m+[0m[0m file_format       = (known after apply)
+          [32m+[0m[0m import_from       = (known after apply)
+          [32m+[0m[0m interface         = "scsi0"
+          [32m+[0m[0m iothread          = true
+          [32m+[0m[0m path_in_datastore = (known after apply)
+          [32m+[0m[0m replicate         = true
+          [32m+[0m[0m size              = 40
+          [32m+[0m[0m ssd               = true
+        }
+
+      [32m+[0m[0m initialization {
+          [32m+[0m[0m datastore_id         = "local-lvm"
+          [32m+[0m[0m file_format          = (known after apply)
+          [32m+[0m[0m meta_data_file_id    = (known after apply)
+          [32m+[0m[0m network_data_file_id = (known after apply)
+          [32m+[0m[0m type                 = (known after apply)
+          [32m+[0m[0m upgrade              = (known after apply)
+          [32m+[0m[0m user_data_file_id    = (known after apply)
+          [32m+[0m[0m vendor_data_file_id  = (known after apply)
+
+          [32m+[0m[0m ip_config {
+              [32m+[0m[0m ipv4 {
+                  [32m+[0m[0m address = "192.168.1.101/24"
+                  [32m+[0m[0m gateway = "192.168.1.1"
+                }
+            }
+
+          [32m+[0m[0m user_account {
+              [32m+[0m[0m keys     = [
+                  [32m+[0m[0m "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJR1wYX2pK0SWVVm6rW9cQoEmrzYSScH3+Ale6ftE3Q thomasnowell@Thomass-MacBook-Pro.local",
+                ]
+              [32m+[0m[0m username = "ubuntu"
+            }
+        }
+
+      [32m+[0m[0m memory {
+          [32m+[0m[0m dedicated      = 4096
+          [32m+[0m[0m floating       = 0
+          [32m+[0m[0m keep_hugepages = false
+          [32m+[0m[0m shared         = 0
+        }
+
+      [32m+[0m[0m operating_system {
+          [32m+[0m[0m type = "l26"
+        }
+
+      [32m+[0m[0m vga (known after apply)
+    }
+
+[1m  # proxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"][0m will be created
+[0m  [32m+[0m[0m resource "proxmox_virtual_environment_vm" "k8s_nodes" {
+      [32m+[0m[0m acpi                                 = true
+      [32m+[0m[0m bios                                 = "ovmf"
+      [32m+[0m[0m boot_order                           = (known after apply)
+      [32m+[0m[0m delete_unreferenced_disks_on_destroy = true
+      [32m+[0m[0m hotplug                              = (known after apply)
+      [32m+[0m[0m id                                   = (known after apply)
+      [32m+[0m[0m ipv4_addresses                       = (known after apply)
+      [32m+[0m[0m ipv6_addresses                       = (known after apply)
+      [32m+[0m[0m keyboard_layout                      = "en-us"
+      [32m+[0m[0m mac_addresses                        = (known after apply)
+      [32m+[0m[0m machine                              = "q35"
+      [32m+[0m[0m migrate                              = false
+      [32m+[0m[0m name                                 = "k8s-worker-01"
+      [32m+[0m[0m network_device                       = [
+          [32m+[0m[0m {
+              [32m+[0m[0m bridge      = "vmbr2"
+              [32m+[0m[0m enabled     = true
+              [32m+[0m[0m firewall    = false
+              [32m+[0m[0m mac_address = (known after apply)
+              [32m+[0m[0m model       = "virtio"
+              [32m+[0m[0m mtu         = 0
+              [32m+[0m[0m queues      = 0
+              [32m+[0m[0m rate_limit  = 0
+              [32m+[0m[0m vlan_id     = 0
+            },
+        ]
+      [32m+[0m[0m network_interface_names              = (known after apply)
+      [32m+[0m[0m node_name                            = "proxmox"
+      [32m+[0m[0m on_boot                              = true
+      [32m+[0m[0m protection                           = false
+      [32m+[0m[0m purge_on_destroy                     = true
+      [32m+[0m[0m reboot                               = false
+      [32m+[0m[0m reboot_after_update                  = true
+      [32m+[0m[0m scsi_hardware                        = "virtio-scsi-pci"
+      [32m+[0m[0m started                              = true
+      [32m+[0m[0m stop_on_destroy                      = false
+      [32m+[0m[0m tablet_device                        = true
+      [32m+[0m[0m tags                                 = [
+          [32m+[0m[0m "terraform",
+          [32m+[0m[0m "kubernetes",
+          [32m+[0m[0m "elasticsearch",
+        ]
+      [32m+[0m[0m template                             = false
+      [32m+[0m[0m timeout_clone                        = 1800
+      [32m+[0m[0m timeout_create                       = 1800
+      [32m+[0m[0m timeout_migrate                      = 1800
+      [32m+[0m[0m timeout_move_disk                    = 1800
+      [32m+[0m[0m timeout_reboot                       = 1800
+      [32m+[0m[0m timeout_shutdown_vm                  = 1800
+      [32m+[0m[0m timeout_start_vm                     = 1800
+      [32m+[0m[0m timeout_stop_vm                      = 300
+      [32m+[0m[0m vm_id                                = 502
+
+      [32m+[0m[0m agent {
+          [32m+[0m[0m enabled = true
+          [32m+[0m[0m timeout = "15m"
+          [32m+[0m[0m trim    = false
+          [32m+[0m[0m type    = "virtio"
+        }
+
+      [32m+[0m[0m cpu {
+          [32m+[0m[0m cores      = 2
+          [32m+[0m[0m hotplugged = 0
+          [32m+[0m[0m limit      = 0
+          [32m+[0m[0m numa       = false
+          [32m+[0m[0m sockets    = 1
+          [32m+[0m[0m type       = "host"
+          [32m+[0m[0m units      = (known after apply)
+        }
+
+      [32m+[0m[0m disk {
+          [32m+[0m[0m aio               = "io_uring"
+          [32m+[0m[0m backup            = true
+          [32m+[0m[0m cache             = "none"
+          [32m+[0m[0m datastore_id      = "local-lvm"
+          [32m+[0m[0m discard           = "on"
+          [32m+[0m[0m file_format       = (known after apply)
+          [32m+[0m[0m import_from       = (known after apply)
+          [32m+[0m[0m interface         = "scsi0"
+          [32m+[0m[0m iothread          = true
+          [32m+[0m[0m path_in_datastore = (known after apply)
+          [32m+[0m[0m replicate         = true
+          [32m+[0m[0m size              = 60
+          [32m+[0m[0m ssd               = true
+        }
+
+      [32m+[0m[0m initialization {
+          [32m+[0m[0m datastore_id         = "local-lvm"
+          [32m+[0m[0m file_format          = (known after apply)
+          [32m+[0m[0m meta_data_file_id    = (known after apply)
+          [32m+[0m[0m network_data_file_id = (known after apply)
+          [32m+[0m[0m type                 = (known after apply)
+          [32m+[0m[0m upgrade              = (known after apply)
+          [32m+[0m[0m user_data_file_id    = (known after apply)
+          [32m+[0m[0m vendor_data_file_id  = (known after apply)
+
+          [32m+[0m[0m ip_config {
+              [32m+[0m[0m ipv4 {
+                  [32m+[0m[0m address = "192.168.1.102/24"
+                  [32m+[0m[0m gateway = "192.168.1.1"
+                }
+            }
+
+          [32m+[0m[0m user_account {
+              [32m+[0m[0m keys     = [
+                  [32m+[0m[0m "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJR1wYX2pK0SWVVm6rW9cQoEmrzYSScH3+Ale6ftE3Q thomasnowell@Thomass-MacBook-Pro.local",
+                ]
+              [32m+[0m[0m username = "ubuntu"
+            }
+        }
+
+      [32m+[0m[0m memory {
+          [32m+[0m[0m dedicated      = 4096
+          [32m+[0m[0m floating       = 0
+          [32m+[0m[0m keep_hugepages = false
+          [32m+[0m[0m shared         = 0
+        }
+
+      [32m+[0m[0m operating_system {
+          [32m+[0m[0m type = "l26"
+        }
+
+      [32m+[0m[0m vga (known after apply)
+    }
+
+[1m  # proxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"][0m will be created
+[0m  [32m+[0m[0m resource "proxmox_virtual_environment_vm" "k8s_nodes" {
+      [32m+[0m[0m acpi                                 = true
+      [32m+[0m[0m bios                                 = "ovmf"
+      [32m+[0m[0m boot_order                           = (known after apply)
+      [32m+[0m[0m delete_unreferenced_disks_on_destroy = true
+      [32m+[0m[0m hotplug                              = (known after apply)
+      [32m+[0m[0m id                                   = (known after apply)
+      [32m+[0m[0m ipv4_addresses                       = (known after apply)
+      [32m+[0m[0m ipv6_addresses                       = (known after apply)
+      [32m+[0m[0m keyboard_layout                      = "en-us"
+      [32m+[0m[0m mac_addresses                        = (known after apply)
+      [32m+[0m[0m machine                              = "q35"
+      [32m+[0m[0m migrate                              = false
+      [32m+[0m[0m name                                 = "k8s-worker-02"
+      [32m+[0m[0m network_device                       = [
+          [32m+[0m[0m {
+              [32m+[0m[0m bridge      = "vmbr2"
+              [32m+[0m[0m enabled     = true
+              [32m+[0m[0m firewall    = false
+              [32m+[0m[0m mac_address = (known after apply)
+              [32m+[0m[0m model       = "virtio"
+              [32m+[0m[0m mtu         = 0
+              [32m+[0m[0m queues      = 0
+              [32m+[0m[0m rate_limit  = 0
+              [32m+[0m[0m vlan_id     = 0
+            },
+        ]
+      [32m+[0m[0m network_interface_names              = (known after apply)
+      [32m+[0m[0m node_name                            = "proxmox"
+      [32m+[0m[0m on_boot                              = true
+      [32m+[0m[0m protection                           = false
+      [32m+[0m[0m purge_on_destroy                     = true
+      [32m+[0m[0m reboot                               = false
+      [32m+[0m[0m reboot_after_update                  = true
+      [32m+[0m[0m scsi_hardware                        = "virtio-scsi-pci"
+      [32m+[0m[0m started                              = true
+      [32m+[0m[0m stop_on_destroy                      = false
+      [32m+[0m[0m tablet_device                        = true
+      [32m+[0m[0m tags                                 = [
+          [32m+[0m[0m "terraform",
+          [32m+[0m[0m "kubernetes",
+          [32m+[0m[0m "elasticsearch",
+        ]
+      [32m+[0m[0m template                             = false
+      [32m+[0m[0m timeout_clone                        = 1800
+      [32m+[0m[0m timeout_create                       = 1800
+      [32m+[0m[0m timeout_migrate                      = 1800
+      [32m+[0m[0m timeout_move_disk                    = 1800
+      [32m+[0m[0m timeout_reboot                       = 1800
+      [32m+[0m[0m timeout_shutdown_vm                  = 1800
+      [32m+[0m[0m timeout_start_vm                     = 1800
+      [32m+[0m[0m timeout_stop_vm                      = 300
+      [32m+[0m[0m vm_id                                = 503
+
+      [32m+[0m[0m agent {
+          [32m+[0m[0m enabled = true
+          [32m+[0m[0m timeout = "15m"
+          [32m+[0m[0m trim    = false
+          [32m+[0m[0m type    = "virtio"
+        }
+
+      [32m+[0m[0m cpu {
+          [32m+[0m[0m cores      = 2
+          [32m+[0m[0m hotplugged = 0
+          [32m+[0m[0m limit      = 0
+          [32m+[0m[0m numa       = false
+          [32m+[0m[0m sockets    = 1
+          [32m+[0m[0m type       = "host"
+          [32m+[0m[0m units      = (known after apply)
+        }
+
+      [32m+[0m[0m disk {
+          [32m+[0m[0m aio               = "io_uring"
+          [32m+[0m[0m backup            = true
+          [32m+[0m[0m cache             = "none"
+          [32m+[0m[0m datastore_id      = "local-lvm"
+          [32m+[0m[0m discard           = "on"
+          [32m+[0m[0m file_format       = (known after apply)
+          [32m+[0m[0m import_from       = (known after apply)
+          [32m+[0m[0m interface         = "scsi0"
+          [32m+[0m[0m iothread          = true
+          [32m+[0m[0m path_in_datastore = (known after apply)
+          [32m+[0m[0m replicate         = true
+          [32m+[0m[0m size              = 60
+          [32m+[0m[0m ssd               = true
+        }
+
+      [32m+[0m[0m initialization {
+          [32m+[0m[0m datastore_id         = "local-lvm"
+          [32m+[0m[0m file_format          = (known after apply)
+          [32m+[0m[0m meta_data_file_id    = (known after apply)
+          [32m+[0m[0m network_data_file_id = (known after apply)
+          [32m+[0m[0m type                 = (known after apply)
+          [32m+[0m[0m upgrade              = (known after apply)
+          [32m+[0m[0m user_data_file_id    = (known after apply)
+          [32m+[0m[0m vendor_data_file_id  = (known after apply)
+
+          [32m+[0m[0m ip_config {
+              [32m+[0m[0m ipv4 {
+                  [32m+[0m[0m address = "192.168.1.103/24"
+                  [32m+[0m[0m gateway = "192.168.1.1"
+                }
+            }
+
+          [32m+[0m[0m user_account {
+              [32m+[0m[0m keys     = [
+                  [32m+[0m[0m "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJR1wYX2pK0SWVVm6rW9cQoEmrzYSScH3+Ale6ftE3Q thomasnowell@Thomass-MacBook-Pro.local",
+                ]
+              [32m+[0m[0m username = "ubuntu"
+            }
+        }
+
+      [32m+[0m[0m memory {
+          [32m+[0m[0m dedicated      = 4096
+          [32m+[0m[0m floating       = 0
+          [32m+[0m[0m keep_hugepages = false
+          [32m+[0m[0m shared         = 0
+        }
+
+      [32m+[0m[0m operating_system {
+          [32m+[0m[0m type = "l26"
+        }
+
+      [32m+[0m[0m vga (known after apply)
+    }
+
+[1mPlan:[0m [0m4 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  [32m+[0m[0m vm_ips = {
+      [32m+[0m[0m k8s-control-01 = "192.168.1.101/24"
+      [32m+[0m[0m k8s-worker-01  = "192.168.1.102/24"
+      [32m+[0m[0m k8s-worker-02  = "192.168.1.103/24"
+    }
+[0m[1m
+Do you want to perform these actions?[0m
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  [1mEnter a value:[0m [0m
+2026-05-22T16:12:29.195+0900 [INFO]  provider: configuring client automatic mTLS
+2026-05-22T16:12:29.199+0900 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 args=[".terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0"]
+2026-05-22T16:12:29.201+0900 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 pid=11951
+2026-05-22T16:12:29.201+0900 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0
+2026-05-22T16:12:29.213+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: configuring server automatic mTLS: timestamp="2026-05-22T16:12:29.213+0900"
+2026-05-22T16:12:29.220+0900 [DEBUG] provider: using plugin: version=6
+2026-05-22T16:12:29.220+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: plugin address: network=unix address=/var/folders/cg/y4__1d_j4bj_64qqv127ggnm0000gn/T/plugin2841437545 timestamp="2026-05-22T16:12:29.220+0900"
+2026-05-22T16:12:29.227+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Configuring the Framework Proxmox provider...: tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=fe5d5959-09f2-f533-5db3-817937aee53b tf_rpc=ConfigureProvider @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/fwprovider/provider.go:301 @module=proxmox timestamp="2026-05-22T16:12:29.227+0900"
+2026-05-22T16:12:29.227+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Configuring the SDK Proxmox provider...: @module=proxmox tf_mux_provider=tf5to6server.v5tov6Server @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/provider/provider.go:50 tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=fe5d5959-09f2-f533-5db3-817937aee53b tf_rpc=ConfigureProvider timestamp="2026-05-22T16:12:29.227+0900"
+2026-05-22T16:12:29.231+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Marking Computed attributes with null configuration values as unknown (known after apply) in the plan to prevent potential Terraform errors: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:250 tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=32934036-d63d-b4e8-dff4-a004c631ddba tf_resource_type=proxmox_download_file tf_rpc=PlanResourceChange @module=sdk.framework timestamp="2026-05-22T16:12:29.231+0900"
+2026-05-22T16:12:29.231+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: marking computed attribute that is null in the config as unknown: tf_attribute_path="AttributeName(\"id\")" tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file tf_rpc=PlanResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:538 @module=sdk.framework tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=32934036-d63d-b4e8-dff4-a004c631ddba timestamp="2026-05-22T16:12:29.231+0900"
+2026-05-22T16:12:29.231+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: marking computed attribute that is null in the config as unknown: tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file tf_rpc=PlanResourceChange @module=sdk.framework tf_attribute_path="AttributeName(\"size\")" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=32934036-d63d-b4e8-dff4-a004c631ddba @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwserver/server_planresourcechange.go:538 timestamp="2026-05-22T16:12:29.231+0900"
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Creating...[0m[0m
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Still creating... [00m10s elapsed][0m[0m
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Still creating... [00m20s elapsed][0m[0m
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Still creating... [00m30s elapsed][0m[0m
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Still creating... [00m40s elapsed][0m[0m
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 tf_attribute_path=datastore_id tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_resource_type=proxmox_download_file @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 @module=sdk.framework tf_attribute_path=node_name tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_resource_type=proxmox_download_file tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: @module=sdk.framework tf_attribute_path=verify tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_rpc=ApplyResourceChange @module=sdk.framework tf_mux_provider="*proto6server.Server" @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 tf_attribute_path=overwrite tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_resource_type=proxmox_download_file timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file tf_attribute_path=file_name tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_attribute_path=upload_timeout tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_resource_type=proxmox_download_file tf_rpc=ApplyResourceChange @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_attribute_path=url tf_mux_provider="*proto6server.Server" tf_resource_type=proxmox_download_file tf_rpc=ApplyResourceChange tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 @module=sdk.framework timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_attribute_path=overwrite_unmanaged tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_download_file timestamp="2026-05-22T16:13:16.730+0900"
+2026-05-22T16:13:16.730+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Value switched to prior value due to semantic equality logic: tf_provider_addr=registry.terraform.io/bpg/proxmox tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.19.0/internal/fwschemadata/value_semantic_equality.go:91 @module=sdk.framework tf_mux_provider="*proto6server.Server" tf_req_id=3bcee78b-447a-eeb0-5d1d-11c02fd4a71b tf_resource_type=proxmox_download_file tf_attribute_path=content_type timestamp="2026-05-22T16:13:16.730+0900"
+[0m[1mproxmox_download_file.ubuntu_cloud_image: Creation complete after 48s [id=local:import/noble-server-cloudimg-amd64.qcow2][0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Creating...[0m[0m
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "boot_order" from ComputedKeys
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "mac_addresses" from ComputedKeys
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "vga" from ComputedKeys
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv6_addresses" from ComputedKeys
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv4_addresses" from ComputedKeys
+2026-05-22T16:13:16.758+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "network_interface_names" from ComputedKeys
+2026-05-22T16:13:23.940+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Resizing disks after VM creation: @module=proxmox tf_mux_provider=tf5to6server.v5tov6Server tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 tf_resource_type=proxmox_virtual_environment_vm @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3440 tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:13:23.939+0900"
+2026-05-22T16:13:23.940+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: VM 502: Resizing disk scsi0: tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange @module=proxmox tf_mux_provider=tf5to6server.v5tov6Server tf_provider_addr=registry.terraform.io/bpg/proxmox @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3443 tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 timestamp="2026-05-22T16:13:23.940+0900"
+2026-05-22T16:13:26.129+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Starting VM: @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:1981 @module=proxmox tf_provider_addr=registry.terraform.io/bpg/proxmox tf_rpc=ApplyResourceChange tf_mux_provider=tf5to6server.v5tov6Server tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 tf_resource_type=proxmox_virtual_environment_vm timestamp="2026-05-22T16:13:26.129+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [00m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [00m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [00m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [00m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [00m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [01m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [02m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [03m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [04m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [05m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [06m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [07m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [08m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [09m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [10m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [11m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [12m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [13m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [14m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [15m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Still creating... [15m10s elapsed][0m[0m
+2026-05-22T16:28:29.804+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: @module=sdk.proto diagnostic_detail="WARN: no efidisk configured! Using temporary efivars disk." diagnostic_severity=WARNING diagnostic_summary="VM start" tf_proto_version=6.11 tf_provider_addr=registry.terraform.io/bpg/proxmox @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:28:29.804+0900"
+2026-05-22T16:28:29.804+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 @module=sdk.proto diagnostic_detail="WARN: iothread is only valid with virtio disk or virtio-scsi-single controller, ignoring" tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 tf_resource_type=proxmox_virtual_environment_vm diagnostic_severity=WARNING diagnostic_summary="VM start" tf_proto_version=6.11 tf_provider_addr=registry.terraform.io/bpg/proxmox tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:28:29.804+0900"
+2026-05-22T16:28:29.804+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: @module=sdk.proto diagnostic_summary="error waiting for network interfaces from QEMU agent" tf_proto_version=6.11 tf_provider_addr=registry.terraform.io/bpg/proxmox diagnostic_detail="timeout while waiting for the QEMU agent on VM \"502\" to publish the network interfaces" diagnostic_severity=WARNING tf_req_id=68ea1f8c-0cc2-fbc2-44e1-82d22204ec05 tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 timestamp="2026-05-22T16:28:29.804+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-01"]: Creation complete after 15m13s [id=502][0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Creating...[0m[0m
+2026-05-22T16:28:29.826+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "network_interface_names" from ComputedKeys
+2026-05-22T16:28:29.827+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv4_addresses" from ComputedKeys
+2026-05-22T16:28:29.827+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "vga" from ComputedKeys
+2026-05-22T16:28:29.827+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "boot_order" from ComputedKeys
+2026-05-22T16:28:29.827+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "mac_addresses" from ComputedKeys
+2026-05-22T16:28:29.827+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv6_addresses" from ComputedKeys
+2026-05-22T16:28:37.143+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Resizing disks after VM creation: tf_rpc=ApplyResourceChange @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3440 @module=proxmox tf_mux_provider=tf5to6server.v5tov6Server tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_virtual_environment_vm tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d timestamp="2026-05-22T16:28:37.143+0900"
+2026-05-22T16:28:37.143+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: VM 503: Resizing disk scsi0: tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange @module=proxmox tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3443 tf_mux_provider=tf5to6server.v5tov6Server tf_provider_addr=registry.terraform.io/bpg/proxmox timestamp="2026-05-22T16:28:37.143+0900"
+2026-05-22T16:28:39.287+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Starting VM: @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:1981 @module=proxmox tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_virtual_environment_vm tf_mux_provider=tf5to6server.v5tov6Server tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:28:39.287+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [00m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [00m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [00m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [00m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [00m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [01m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [02m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [03m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [04m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [05m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [06m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [07m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [08m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [09m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [10m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [11m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [12m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [13m54s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [14m04s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [14m14s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [14m24s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [14m34s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [18m58s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [19m08s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [19m18s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Still creating... [19m28s elapsed][0m[0m
+2026-05-22T16:48:01.375+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: diagnostic_detail="WARN: no efidisk configured! Using temporary efivars disk." diagnostic_severity=WARNING diagnostic_summary="VM start" tf_provider_addr=registry.terraform.io/bpg/proxmox @module=sdk.proto tf_proto_version=6.11 tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 timestamp="2026-05-22T16:48:01.374+0900"
+2026-05-22T16:48:01.375+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: diagnostic_detail="WARN: iothread is only valid with virtio disk or virtio-scsi-single controller, ignoring" diagnostic_summary="VM start" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d tf_resource_type=proxmox_virtual_environment_vm @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 @module=sdk.proto diagnostic_severity=WARNING tf_proto_version=6.11 tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:48:01.374+0900"
+2026-05-22T16:48:01.375+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 @module=sdk.proto diagnostic_detail="timeout while waiting for the QEMU agent on VM \"503\" to publish the network interfaces" diagnostic_severity=WARNING diagnostic_summary="error waiting for network interfaces from QEMU agent" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_virtual_environment_vm tf_proto_version=6.11 tf_req_id=c5c34637-ae05-ee65-9af0-18388cf2ae7d timestamp="2026-05-22T16:48:01.374+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"]: Creation complete after 19m31s [id=503][0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Creating...[0m[0m
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "boot_order" from ComputedKeys
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv6_addresses" from ComputedKeys
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "mac_addresses" from ComputedKeys
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "vga" from ComputedKeys
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "ipv4_addresses" from ComputedKeys
+2026-05-22T16:48:01.403+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: [DEBUG] setting computed for "network_interface_names" from ComputedKeys
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [00m18s elapsed][0m[0m
+2026-05-22T16:48:19.915+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: Resizing disks after VM creation: @module=proxmox tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_resource_type=proxmox_virtual_environment_vm @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3440 tf_mux_provider=tf5to6server.v5tov6Server tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:48:19.914+0900"
+2026-05-22T16:48:19.915+0900 [INFO]  provider.terraform-provider-proxmox_v0.106.0: VM 501: Resizing disk scsi0: tf_provider_addr=registry.terraform.io/bpg/proxmox tf_resource_type=proxmox_virtual_environment_vm @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:3443 @module=proxmox tf_mux_provider=tf5to6server.v5tov6Server tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:48:19.914+0900"
+2026-05-22T16:48:21.912+0900 [DEBUG] provider.terraform-provider-proxmox_v0.106.0: Starting VM: @caller=/home/runner/work/terraform-provider-proxmox/terraform-provider-proxmox/proxmoxtf/resource/vm/vm.go:1981 tf_mux_provider=tf5to6server.v5tov6Server @module=proxmox tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange timestamp="2026-05-22T16:48:21.912+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [00m28s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [00m38s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [00m48s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [00m58s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [01m11s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [01m21s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [01m31s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [01m41s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [01m51s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m03s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m13s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m23s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m33s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m46s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [02m56s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [03m06s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [03m16s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [03m26s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [03m43s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [03m53s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [04m03s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [04m13s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [04m23s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [04m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [04m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m27s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m37s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m47s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [05m57s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [06m07s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [06m24s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [06m34s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [06m44s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [06m54s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [07m04s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [07m21s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [07m31s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [07m41s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [07m51s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [08m08s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [08m18s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [08m28s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [08m38s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [08m48s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [09m04s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [09m14s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [09m24s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [09m34s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [09m44s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [10m01s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [10m11s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [10m29s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [10m39s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [10m49s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [44m35s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [44m53s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [45m03s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [45m13s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [45m23s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [45m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [45m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m00s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m37s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m47s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [46m57s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [47m07s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [47m17s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [47m34s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [47m44s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [47m54s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m04s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m14s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m28s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m38s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m48s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [48m58s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [49m10s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [49m20s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [49m30s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [49m40s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [49m50s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [56m23s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [56m33s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [56m43s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [56m53s elapsed][0m[0m
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Still creating... [57m03s elapsed][0m[0m
+2026-05-22T17:56:16.657+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: @module=sdk.proto diagnostic_detail="WARN: no efidisk configured! Using temporary efivars disk." diagnostic_severity=WARNING diagnostic_summary="VM start" tf_proto_version=6.11 tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_resource_type=proxmox_virtual_environment_vm tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 timestamp="2026-05-22T17:56:16.657+0900"
+2026-05-22T17:56:16.657+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: tf_rpc=ApplyResourceChange @module=sdk.proto diagnostic_detail="WARN: iothread is only valid with virtio disk or virtio-scsi-single controller, ignoring" diagnostic_severity=WARNING tf_proto_version=6.11 tf_provider_addr=registry.terraform.io/bpg/proxmox tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_resource_type=proxmox_virtual_environment_vm @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 diagnostic_summary="VM start" timestamp="2026-05-22T17:56:16.657+0900"
+2026-05-22T17:56:16.657+0900 [WARN]  provider.terraform-provider-proxmox_v0.106.0: Response contains warning diagnostic: diagnostic_detail="timeout while waiting for the QEMU agent on VM \"501\" to publish the network interfaces" diagnostic_severity=WARNING tf_proto_version=6.11 tf_req_id=534285d7-ed94-858b-e88d-7b606aa9980e tf_resource_type=proxmox_virtual_environment_vm diagnostic_summary="error waiting for network interfaces from QEMU agent" tf_provider_addr=registry.terraform.io/bpg/proxmox tf_rpc=ApplyResourceChange @caller=/home/runner/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.31.0/tfprotov6/internal/diag/diagnostics.go:60 @module=sdk.proto timestamp="2026-05-22T17:56:16.657+0900"
+[0m[1mproxmox_virtual_environment_vm.k8s_nodes["k8s-control-01"]: Creation complete after 1h8m16s [id=501][0m
+2026-05-22T17:56:16.668+0900 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-05-22T17:56:16.671+0900 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/bpg/proxmox/0.106.0/darwin_arm64/terraform-provider-proxmox_v0.106.0 id=11951
+2026-05-22T17:56:16.671+0900 [DEBUG] provider: plugin exited
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mVM start[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  with proxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"],
+[33m│[0m [0m  on main.tf line 106, in resource "proxmox_virtual_environment_vm" "k8s_nodes":
+[33m│[0m [0m 106: resource "proxmox_virtual_environment_vm" "k8s_nodes" [4m{[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mWARN: no efidisk configured! Using temporary efivars disk.
+[33m│[0m [0m
+[33m│[0m [0m(and 5 more similar warnings elsewhere)
+[33m╵[0m[0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1merror waiting for network interfaces from QEMU agent[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  with proxmox_virtual_environment_vm.k8s_nodes["k8s-worker-02"],
+[33m│[0m [0m  on main.tf line 106, in resource "proxmox_virtual_environment_vm" "k8s_nodes":
+[33m│[0m [0m 106: resource "proxmox_virtual_environment_vm" "k8s_nodes" [4m{[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mtimeout while waiting for the QEMU agent on VM "503" to publish the network
+[33m│[0m [0minterfaces
+[33m│[0m [0m
+[33m│[0m [0m(and 2 more similar warnings elsewhere)
+[33m╵[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 4 added, 0 changed, 0 destroyed.[0m
+[0m[1m[32m
+Outputs:
+
+[0mvm_ips = {
+  "k8s-control-01" = "192.168.1.101/24"
+  "k8s-worker-01" = "192.168.1.102/24"
+  "k8s-worker-02" = "192.168.1.103/24"
+}

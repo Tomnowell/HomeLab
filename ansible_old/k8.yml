@@ -1,0 +1,15 @@
+- name: Intall ECK
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+
+    - name: Install ECK CRDs
+      kubernetes.core.k8s:
+        state: present
+        src: https://download.elastic.co/downloads/eck/3.4.0/crds.yaml
+
+    - name: Install ECK operator
+      kubernetes.core.k8s:
+        state: present
+        src: kubectl apply -f https://download.elastic.co/downloads/eck/3.4.0/operator.yaml

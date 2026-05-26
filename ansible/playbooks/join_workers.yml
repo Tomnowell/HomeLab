@@ -1,0 +1,14 @@
+- name: Join worker nodes to cluster
+  hosts: k8s_workers
+  become: true
+
+  tasks:
+
+    - name: Get join command from control plane
+      set_fact:
+        join_command: "{{ hostvars[groups['k8s_control'][0]]['join_command']['stdout'] }}"
+
+    - name: Join cluster
+      shell: "{{ join_command }} --ignore-preflight-errors=all"
+      args:
+        creates: /etc/kubernetes/kubelet.conf

@@ -1,0 +1,12 @@
+- name: Prepare nodes for Elasticsearch
+  hosts: k8s_cluster
+  become: true
+
+  tasks:
+
+    - name: Set vm.max_map_count
+      sysctl:
+        name: vm.max_map_count
+        value: '262144'
+        state: present
+        reload: yes
